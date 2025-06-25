@@ -28,3 +28,34 @@ OpenWeatherMap API
 PIL (for background image processing)
 
 Datetime & Requests
+
+**Sample Video **
+
+
+
+https://github.com/user-attachments/assets/95c4499b-1952-45b0-8330-e9de86ace593
+
+
+
+**⚙️ How to Run Locally**
+1.Clone the repository:
+
+git clone https://github.com/yourusername/weather-dashboard.git
+cd weather-dashboard
+
+
+2.Install dependencies:
+
+pip install -r requirements.txt
+
+3.Get your OpenWeatherMap API key:
+
+Go to https://openweathermap.org/
+
+Create an account and generate your API key.
+
+4.Add your API key in the script (or use .env for security):
+API_KEY = "your_openweathermap_api_key"
+
+5.Run the app:
+streamlit run app.py
