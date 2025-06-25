@@ -58,4 +58,4 @@ Create an account and generate your API key.
 API_KEY = "your_openweathermap_api_key"
 
 5.Run the app:
-streamlit run app.py
+streamlit run main.py
